@@ -1,3 +1,3 @@
 # MNTN LandingPage
 
-![Full Website Image]('src/assets/MNTN.png')
+![Full Website Image](src/assets/MNTN.png)
