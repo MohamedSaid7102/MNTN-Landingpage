@@ -11,9 +11,9 @@ function App() {
         <NavigationBar />
 
         {/* Heor intro section */}
-        <article className="flex flex-col md:gap-8 mt-[10%] m-auto w-max h-max">
+        <article className="flex flex-col gap-4 md:gap-8 mt-[10%] m-auto w-max h-max">
           <SecondaryHeading content='HIKING guide' />
-          <PrimaryHeading content={<span className="text-2xl sm:text-3xl md:text-4xl lg:text-7xl">Be prepared for the <br /> Mountains and beyond!</span>} />
+          <PrimaryHeading content={<span className="text-xl sm:text-3xl md:text-4xl lg:text-7xl">Be prepared for the <br /> Mountains and beyond!</span>} />
           <span className="animate-bounce"> <a href="#content" className="drop-shadow-custom">scroll down </a> <span className="text-3xl">↓</span> </span>
         </article>
 
