@@ -48,7 +48,7 @@ const NavigationBar = () => {
 
 const MobileLinks = () => {
   return (
-    <div className="absolute md:hidden py-3 left-0 right-0 top-24 bg-[rgba(255,255,255,0.3)]">
+    <div className="absolute md:hidden py-3 left-0 right-0 top-24 bg-[rgba(255,255,255,0.3)] backdrop-blur-lg z-20">
       {/* Navigation Links */}
       <li>
         <ul className="flex flex-col gap-3 items-center w-full">
