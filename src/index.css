@@ -26,6 +26,10 @@ body,html{
   transition: initial;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 a {
   font-weight: 500;
   text-decoration: inherit;
@@ -37,7 +41,13 @@ a:hover, a:focus, a:focus-visible {
 
 h1 {
   font-size: 3.2em;
-  line-height: 1.1;
+}
+
+h1,h2,h3,h4 {
+  font-family: 'Playfair Display',serif;
+  font-weight: 600;
+  text-transform: capitalize;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
 }
 
 button {

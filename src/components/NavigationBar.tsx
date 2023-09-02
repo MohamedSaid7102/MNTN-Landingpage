@@ -28,7 +28,7 @@ const NavigationBar = () => {
     <nav className="w-full">
       <ul className="w-full p-10 flex flex-row justify-between items-center">
         {/* Logo */}
-        <li><a href="#!" className="text-white font-serif text-3xl drop-shadow-3xl hover:text-white cursor-pointer font-medium">MNTN</a></li>
+        <li><a href="#!" className="text-white font-playfair text-3xl drop-shadow-3xl hover:text-white cursor-pointer font-medium">MNTN</a></li>
         {/* Hamburger Button */}
         <li className="md:hidden">
           <button
