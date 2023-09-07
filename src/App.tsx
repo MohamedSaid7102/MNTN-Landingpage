@@ -1,9 +1,8 @@
 import './App.css'
-import InstagramIcon from './assets/icons/InstgramIcon'
-import TwitterIcon from './assets/icons/TwitterIcon'
 import NavigationBar from './components/NavigationBar'
 import PrimaryHeading from './components/common/PrimaryHeading'
 import SecondaryHeading from './components/common/SecondaryHeading'
+import SideRotatedSocialMediaLinks from './components/common/SideRotatedSocialMediaLinks'
 
 function App() {
   return (
@@ -20,11 +19,7 @@ function App() {
         </article>
 
         {/* Socila Media Links Section */}
-        <ul className="hidden md:flex gap-6 rotate-90 absolute left-4">
-          <li><a href="#!">Follow</a></li>
-          <li className="rotate-[-90deg]"><a href="#!" className="hover:underline"><TwitterIcon /></a></li>
-          <li className="rotate-[-90deg]"><a href="#!" className="hover:underline"><InstagramIcon /></a></li>
-        </ul>
+        <SideRotatedSocialMediaLinks />
 
       </section >
 
